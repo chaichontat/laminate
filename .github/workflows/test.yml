@@ -21,12 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install Conda environment
-        uses: mamba-org/provision-with-micromamba@main
+      - uses: mamba-org/setup-micromamba@v1
         with:
-          cache-downloads: true
-          cache-env: true
           environment-file: environment.yml
+          init-shell: >-
+            bash
+          cache-environment: true
 
       - name: run
         run: |
