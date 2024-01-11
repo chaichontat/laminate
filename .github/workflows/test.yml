@@ -24,6 +24,7 @@ jobs:
       - uses: mamba-org/setup-micromamba@v1
         with:
           environment-file: environment.yml
+          environment-name: lamin
           init-shell: >-
             bash
           cache-environment: true
