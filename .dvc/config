@@ -1,5 +1,4 @@
 [core]
     autostage = true
 ['remote "origin"']
-    url = s3://dvc
-    endpointurl = https://dagshub.com/chaichontat/laminate.s3
+    url = s3://472bdad691b4483dea759eadb37110bd.r2.cloudflarestorage.com/lamintest
